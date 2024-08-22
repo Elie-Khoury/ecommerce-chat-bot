@@ -1,0 +1,358 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": [
+				"Hi",
+				"Hey",
+				"How are you",
+				"Is anyone there?",
+				"Hello",
+				"Good day"
+			],
+			"responses": [
+				"Hey :-)",
+				"Hello, thanks for visiting",
+				"Hi there, what can I do for you?",
+				"Hi there, how can I help?"
+			]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": ["Bye", "See you later", "Goodbye"],
+			"responses": [
+				"See you later, thanks for visiting",
+				"Have a nice day",
+				"Bye! Come back again soon."
+			]
+		},
+		{
+			"tag": "thanks",
+			"patterns": [
+				"Thanks",
+				"Thank you",
+				"That's helpful",
+				"Thank's a lot!"
+			],
+			"responses": ["Happy to help!", "Any time!", "My pleasure"]
+		},
+		{
+			"tag": "help",
+			"patterns": ["Help", "Assistance", "I dont know what to do"],
+			"responses": [
+				"You can contact 'styleleather.outlook.com' for further assistance."
+			]
+		},
+		{
+			"tag": "items|products",
+			"patterns": [
+				"Which items do you have?",
+				"What kinds of items are there?",
+				"What do you sell?"
+			],
+			"responses": [
+				"We sell men's and women's clothing, accessories and electronics."
+			]
+		},
+		{
+			"tag": "items|products|backpack|fjallraven|price",
+			"patterns": [
+				"What is the price of the Fjallraven Foldsack No. 1 Backpack?",
+				"What is the price of the Fjallraven backpack?",
+				"How much does the Fjallraven Foldsack No. 1 Backpack cost?",
+				"Can you tell me the price of the Fjallraven Foldsack No. 1 Backpack?",
+				"How much is the Fjallraven Foldsack No. 1 Backpack priced at?",
+				"Tell me the cost of the Fjallraven Foldsack No. 1 Backpack."
+			],
+			"responses": [
+				"The Fjallraven Foldsack No. 1 Backpack is priced at $109.95.",
+				"The Fjallraven Foldsack No. 1 Backpack costs $109.95.",
+				"The price of the Fjallraven Foldsack No. 1 Backpack is $109.95.",
+				"The Fjallraven Foldsack No. 1 Backpack is available for $109.95."
+			]
+		},
+		{
+			"tag": "items|products|backpack|fjallraven|details",
+			"patterns": [
+				"What are the details of the Fjallraven Foldsack No. 1 Backpack?",
+				"Can you provide more information about the Fjallraven Foldsack No. 1 Backpack?",
+				"What features does the Fjallraven Foldsack No. 1 Backpack have?",
+				"Give me the details of the Fjallraven Foldsack No. 1 Backpack."
+			],
+			"responses": [
+				"The Fjallraven Foldsack No. 1 Backpack is made from durable G-1000 HeavyDuty Eco fabric, has a main compartment with a drawstring closure, and includes a front zippered pocket. It is available in several colors."
+			]
+		},
+		{
+			"tag": "items|products|backpack|fjallraven|rating",
+			"patterns": [
+				"What is the rating of the Fjallraven Foldsack No. 1 Backpack?",
+				"How do customers rate the Fjallraven Foldsack No. 1 Backpack?",
+				"Can you tell me the reviews of the Fjallraven Foldsack No. 1 Backpack?",
+				"What do people think about the Fjallraven Foldsack No. 1 Backpack?",
+				"How is the Fjallraven Foldsack No. 1 Backpack rated?"
+			],
+			"responses": [
+				"The Fjallraven Foldsack No. 1 Backpack has an average rating of 4.8 out of 5 stars.",
+				"Customers rate the Fjallraven Foldsack No. 1 Backpack highly with a rating of 4.8 stars.",
+				"The Fjallraven Foldsack No. 1 Backpack has a 4.8-star rating.",
+				"Reviews for the Fjallraven Foldsack No. 1 Backpack are very positive with a 4.8-star rating."
+			]
+		},
+		{
+			"tag": "items|products|tshirt|casual|mens|price",
+			"patterns": [
+				"What is the price of the Mens Casual Premium Slim Fit T-Shirts?",
+				"How much does the Mens Casual Premium Slim Fit T-Shirts cost?",
+				"Can you tell me the price of the Mens Casual Premium Slim Fit T-Shirts?",
+				"How much are the Mens Casual Premium Slim Fit T-Shirts priced at?",
+				"Tell me the cost of the Mens Casual Premium Slim Fit T-Shirts."
+			],
+			"responses": [
+				"The Mens Casual Premium Slim Fit T-Shirts are priced at $22.3.",
+				"The Mens Casual Premium Slim Fit T-Shirts cost $22.3.",
+				"The price of the Mens Casual Premium Slim Fit T-Shirts is $22.3.",
+				"The Mens Casual Premium Slim Fit T-Shirts are available for $22.3."
+			]
+		},
+		{
+			"tag": "items|products|tshirt|casual|mens|details",
+			"patterns": [
+				"What are the details of the Mens Casual Premium Slim Fit T-Shirts?",
+				"Can you provide more information about the Mens Casual Premium Slim Fit T-Shirts?",
+				"What features do the Mens Casual Premium Slim Fit T-Shirts have?",
+				"Give me the details of the Mens Casual Premium Slim Fit T-Shirts."
+			],
+			"responses": [
+				"The Mens Casual Premium Slim Fit T-Shirts are made from 100% cotton, feature a slim fit design, and are available in various colors and sizes. They are machine washable and durable."
+			]
+		},
+		{
+			"tag": "items|products|tshirt|casual|mens|rating",
+			"patterns": [
+				"What is the rating of the Mens Casual Premium Slim Fit T-Shirts?",
+				"How do customers rate the Mens Casual Premium Slim Fit T-Shirts?",
+				"Can you tell me the reviews of the Mens Casual Premium Slim Fit T-Shirts?",
+				"What do people think about the Mens Casual Premium Slim Fit T-Shirts?",
+				"How are the Mens Casual Premium Slim Fit T-Shirts rated?"
+			],
+			"responses": [
+				"The Mens Casual Premium Slim Fit T-Shirts have an average rating of 4.5 out of 5 stars.",
+				"Customers rate the Mens Casual Premium Slim Fit T-Shirts highly with a rating of 4.5 stars.",
+				"The Mens Casual Premium Slim Fit T-Shirts have a 4.5-star rating.",
+				"Reviews for the Mens Casual Premium Slim Fit T-Shirts are positive with a 4.5-star rating."
+			]
+		},
+		{
+			"tag": "items|products|jacket|cotton|mens|price",
+			"patterns": [
+				"What is the price of the Mens Cotton Jacket?",
+				"How much does the Mens Cotton Jacket cost?",
+				"Can you tell me the price of the Mens Cotton Jacket?",
+				"How much is the Mens Cotton Jacket priced at?",
+				"Tell me the cost of the Mens Cotton Jacket."
+			],
+			"responses": [
+				"The Mens Cotton Jacket is priced at $55.99.",
+				"The Mens Cotton Jacket costs $55.99.",
+				"The price of the Mens Cotton Jacket is $55.99.",
+				"The Mens Cotton Jacket is available for $55.99."
+			]
+		},
+		{
+			"tag": "items|products|jacket|cotton|mens|details",
+			"patterns": [
+				"What are the details of the Mens Cotton Jacket?",
+				"Can you provide more information about the Mens Cotton Jacket?",
+				"What features does the Mens Cotton Jacket have?",
+				"Give me the details of the Mens Cotton Jacket."
+			],
+			"responses": [
+				"The Mens Cotton Jacket is made from high-quality cotton, features a zip front, adjustable cuffs, and two front pockets. It's available in several sizes and colors."
+			]
+		},
+		{
+			"tag": "items|products|jacket|cotton|mens|rating",
+			"patterns": [
+				"What is the rating of the Mens Cotton Jacket?",
+				"How do customers rate the Mens Cotton Jacket?",
+				"Can you tell me the reviews of the Mens Cotton Jacket?",
+				"What do people think about the Mens Cotton Jacket?",
+				"How is the Mens Cotton Jacket rated?"
+			],
+			"responses": [
+				"The Mens Cotton Jacket has an average rating of 4.2 out of 5 stars.",
+				"Customers rate the Mens Cotton Jacket with a 4.2-star rating.",
+				"The Mens Cotton Jacket has a 4.2-star rating.",
+				"Reviews for the Mens Cotton Jacket are positive with a 4.2-star rating."
+			]
+		},
+		{
+			"tag": "items|products|slim|fit|mens|price",
+			"patterns": [
+				"What is the price of the Mens Casual Slim Fit?",
+				"How much does the Mens Casual Slim Fit cost?",
+				"Can you tell me the price of the Mens Casual Slim Fit?",
+				"How much are the Mens Casual Slim Fit priced at?",
+				"Tell me the cost of the Mens Casual Slim Fit."
+			],
+			"responses": [
+				"The Mens Casual Slim Fit is priced at $15.99.",
+				"The Mens Casual Slim Fit costs $15.99.",
+				"The price of the Mens Casual Slim Fit is $15.99.",
+				"The Mens Casual Slim Fit is available for $15.99."
+			]
+		},
+		{
+			"tag": "items|products|slim|fit|mens|details",
+			"patterns": [
+				"What are the details of the Mens Casual Slim Fit?",
+				"Can you provide more information about the Mens Casual Slim Fit?",
+				"What features do the Mens Casual Slim Fit have?",
+				"Give me the details of the Mens Casual Slim Fit."
+			],
+			"responses": [
+				"The Mens Casual Slim Fit is crafted from 100% cotton with a slim fit design, perfect for a modern, stylish look. Available in various colors and sizes."
+			]
+		},
+		{
+			"tag": "items|products|slim|fit|mens|rating",
+			"patterns": [
+				"What is the rating of the Mens Casual Slim Fit?",
+				"How do customers rate the Mens Casual Slim Fit?",
+				"Can you tell me the reviews of the Mens Casual Slim Fit?",
+				"What do people think about the Mens Casual Slim Fit?",
+				"How are the Mens Casual Slim Fit rated?"
+			],
+			"responses": [
+				"The Mens Casual Slim Fit has an average rating of 4.4 out of 5 stars.",
+				"Customers rate the Mens Casual Slim Fit with a 4.4-star rating.",
+				"The Mens Casual Slim Fit has a 4.4-star rating.",
+				"Reviews for the Mens Casual Slim Fit are positive with a 4.4-star rating."
+			]
+		},
+		{
+			"tag": "items|products|bracelet|john|hardy|price",
+			"patterns": [
+				"What is the price of the John Hardy Women's Classic Chain Silver Bracelet?",
+				"How much does the John Hardy Women's Classic Chain Silver Bracelet cost?",
+				"Can you tell me the price of the John Hardy Women's Classic Chain Silver Bracelet?",
+				"How much is the John Hardy Women's Classic Chain Silver Bracelet priced at?",
+				"Tell me the cost of the John Hardy Women's Classic Chain Silver Bracelet."
+			],
+			"responses": [
+				"The John Hardy Women's Classic Chain Silver Bracelet is priced at $425.",
+				"The John Hardy Women's Classic Chain Silver Bracelet costs $425.",
+				"The price of the John Hardy Women's Classic Chain Silver Bracelet is $425.",
+				"The John Hardy Women's Classic Chain Silver Bracelet is available for $425."
+			]
+		},
+		{
+			"tag": "items|products|bracelet|john|hardy|details",
+			"patterns": [
+				"What are the details of the John Hardy Women's Classic Chain Silver Bracelet?",
+				"Can you provide more information about the John Hardy Women's Classic Chain Silver Bracelet?",
+				"What features does the John Hardy Women's Classic Chain Silver Bracelet have?",
+				"Give me the details of the John Hardy Women's Classic Chain Silver Bracelet."
+			],
+			"responses": [
+				"The John Hardy Women's Classic Chain Silver Bracelet is made from sterling silver, features a classic chain design, and includes a clasp closure. It is elegant and suitable for various occasions."
+			]
+		},
+		{
+			"tag": "items|products|bracelet|john|hardy|rating",
+			"patterns": [
+				"What is the rating of the John Hardy Women's Classic Chain Silver Bracelet?",
+				"How do customers rate the John Hardy Women's Classic Chain Silver Bracelet?",
+				"Can you tell me the reviews of the John Hardy Women's Classic Chain Silver Bracelet?",
+				"What do people think about the John Hardy Women's Classic Chain Silver Bracelet?",
+				"How is the John Hardy Women's Classic Chain Silver Bracelet rated?"
+			],
+			"responses": [
+				"The John Hardy Women's Classic Chain Silver Bracelet has an average rating of 4.8 out of 5 stars.",
+				"Customers rate the John Hardy Women's Classic Chain Silver Bracelet with a 4.8-star rating.",
+				"The John Hardy Women's Classic Chain Silver Bracelet has a 4.8-star rating.",
+				"Reviews for the John Hardy Women's Classic Chain Silver Bracelet are very positive with a 4.8-star rating."
+			]
+		},
+		{
+			"tag": "items|products|bracelet|john|hardy|price",
+			"patterns": [
+				"What is the price of the John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet?",
+				"How much does the John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet cost?",
+				"Can you tell me the price of the John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet?",
+				"How much is the John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet priced at?",
+				"Tell me the cost of the John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet."
+			],
+			"responses": [
+				"The John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet is priced at $425.",
+				"The John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet costs $425.",
+				"The price of the John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet is $425.",
+				"The John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet is available for $425."
+			]
+		},
+		{
+			"tag": "items|products|bracelet|john|hardy|details",
+			"patterns": [
+				"What are the details of the John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet?",
+				"Can you provide more information about the John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet?",
+				"What features does the John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet have?",
+				"Give me the details of the John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet."
+			],
+			"responses": [
+				"The John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet is crafted from gold and silver with dragon motifs and station accents. It features a unique and intricate design, adding elegance and a touch of mystique to any outfit."
+			]
+		},
+		{
+			"tag": "items|products|bracelet|john|hardy|rating",
+			"patterns": [
+				"What is the rating of the John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet?",
+				"How do customers rate the John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet?",
+				"Can you tell me the reviews of the John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet?",
+				"What do people think about the John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet?",
+				"How is the John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet rated?"
+			],
+			"responses": [
+				"The John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet has an average rating of 4.7 out of 5 stars.",
+				"Customers rate the John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet with a 4.7-star rating.",
+				"The John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet has a 4.7-star rating.",
+				"Reviews for the John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet are positive with a 4.7-star rating."
+			]
+		},
+
+		{
+			"tag": "payments",
+			"patterns": [
+				"Do you take credit cards?",
+				"Do you accept Mastercard?",
+				"Can I pay with Paypal?",
+				"Are you cash only?"
+			],
+			"responses": [
+				"We accept VISA, Mastercard and Paypal",
+				"We accept most major credit cards, and Paypal"
+			]
+		},
+		{
+			"tag": "delivery",
+			"patterns": [
+				"How long does delivery take?",
+				"How long does shipping take?",
+				"When do I get my delivery?"
+			],
+			"responses": ["Delivery takes 2-4 days", "Shipping takes 2-4 days"]
+		},
+		{
+			"tag": "funny",
+			"patterns": [
+				"Tell me a joke!",
+				"Tell me something funny!",
+				"Do you know a joke?"
+			],
+			"responses": [
+				"Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+				"What did the buffalo say when his son left for college? Bison."
+			]
+		}
+	]
+}
